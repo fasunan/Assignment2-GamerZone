@@ -169,11 +169,166 @@ font-weight: 700;
 
 }
 
-.game-1{
-   
-}
 
 /* online gamer section ends here */
 
+/* play instant parts start here */
+
+.play-instant-part{
+    border: 1px solid green;
+    max-width: 1400px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.play-img{
+
+}
+
+.play-text{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 100px 0 100px;
+}
+
+.text-p{
+    font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.play-text-color{
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+
+}
+.image-1{
+    width:500px;
+    height: 500px; 
+}
+.image-2{
+   width: 250px;
+   height: 250px;
+}
+/* play instant parts ends here */
+
+
+
+/* <!-- icon part start here --> */
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .icon:hover {
+    border-color: #FF42A5;
+    background-color:  #e7dede;
+    ;
+  }
+  
+  .icon img {
+    width: 32px; 
+    margin-right: 10px;
+  }
+  
+  .title {
+    color: #0B0223;;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover .title {
+    color:#FF42A5;
+  }
+  
+  
+/* <!-- icon part ends here --> */ 
 
   
+
+.footer-container{
+    border: 1px solid palegoldenrod;
+    background-color: #0B0223;
+    color: #FFF;
+    margin-top: 40px;
+}
+
+.footer-title{
+margin-top: 40px;
+margin-right: 100px;
+}
+
+.color-Z {
+   color: #FFF;
+}
+
+.list-container{
+    display: flex;
+    justify-content:center;
+   list-style: none;
+   padding: 0;
+}
+.list-container li{
+    margin: 0 15px;
+    font-size: 20px;
+
+}
+.list-container li a {
+    text-decoration: none;
+    color:  #FFF;
+}
+
+.footer-icon{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+      }
+      
+      .footer-icon a {
+        display: inline-block;
+        margin: 0 15px;
+        color: #fdefef;
+        font-size: 30px;
+      }
+
+      .footer-text{
+        text-align: center;
+   list-style: none;
+   padding: 0;
+   margin-bottom: 20px;
+   font-size: 12px;
+
+}
+.footer-text li{
+    display: flex;
+    text-decoration: none;
+    margin: 0 15px;
+   
+}
+.need-flex{
+    display: flex;
+    justify-content: center;
+   margin-top: 40px;
+}
+/* footer task end */
