@@ -58,7 +58,7 @@ align-items: center;
 }
 .btn-primary{
     padding: 5px 5px;
-    width: 120px;
+    width: 150px;
     height: 30px;
     font-size: 15px;
     font-weight: 500;
@@ -73,21 +73,27 @@ align-items: center;
 /* banner section starts */
 
 .banner-container{
-    border: 2px solid rgb(168, 30, 65);
+   
     margin: auto 0;
     max-width: 1400px;
     min-height: 50px;
     display: flex;
+    align-items: center;
+    margin: 0px 100px ;
 }
 .banner-text{
-border: 1px solid green;
+
 width: 50%;
+font: size 20px;
+font-weight:800;
+text-align: center left;
+margin-left:80px;
 
 
 }
 
 .banner-img{
-border: 1px solid rgb(247, 192, 192);
+
 width: 50%;
 
 
@@ -105,6 +111,24 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 60px;
 font-weight: 700;
+}
+.btn-signin{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+background:#FF42A5;
+border: none;
+}
+.btn-live{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+border: none;
 }
 
 /* banner section ends */
