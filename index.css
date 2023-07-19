@@ -182,7 +182,12 @@ font-weight: 700;
 }
 
 .play-img{
-
+    position: relative;
+   
+}
+/* .image-1{
+    width: 650px;
+    position: absolute; */
 }
 
 .play-text{
@@ -207,14 +212,14 @@ font-size: 48px;
 font-weight: 700;
 
 }
-.image-1{
+/* .image-1{
     width:500px;
     height: 500px; 
 }
 .image-2{
    width: 250px;
    height: 250px;
-}
+} */
 /* play instant parts ends here */
 
 
@@ -267,7 +272,7 @@ font-weight: 700;
   
 
 .footer-container{
-    border: 1px solid palegoldenrod;
+   
     background-color: #0B0223;
     color: #FFF;
     margin-top: 40px;
