@@ -175,9 +175,8 @@ font-weight: 700;
 /* play instant parts start here */
 
 .play-instant-part{
-    border: 1px solid green;
-    max-width: 1400px;
-    min-height: 400px;
+    
+  
     display: flex;
     align-items: center;
 }
@@ -235,7 +234,7 @@ font-weight: 700;
     margin: 8px;
     padding: 10px;
     border: 1px solid transparent;
-    transition: all 0.3s;
+   
     cursor: pointer;
     border-radius: 50px;
   }
@@ -255,7 +254,7 @@ font-weight: 700;
     color: #0B0223;;
     font-size: 18px;
     font-weight: 600;
-    transition: color 0.3s;
+    
   }
   
   .icon:hover .title {
